@@ -29,13 +29,13 @@ variable "management_interface_config" {
 }
 
 variable "management_interface_ip_prefix" {
-  description = "Management interface CIDR."
+  description = "Dummy management interface CIDR. This will be replaced by cloud-init."
   type        = string
   default     = "192.168.10.101/24"
 }
 
 variable "management_default_gateway_ip" {
-  description = "Management default gateway IP."
+  description = "Dummy management default gateway IP. This will be replaced by cloud-init."
   type        = string
   default     = "192.168.10.254"
 }
