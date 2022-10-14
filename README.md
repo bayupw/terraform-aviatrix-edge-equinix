@@ -32,7 +32,7 @@ export AVIATRIX_PASSWORD="aviatrix123"
 
 ```hcl
 module "aviatrix-edge-equinix" {
-  source = "bayupw/aviatrix-edge-equinix/aviatrix"
+  source = "bayupw/edge-equinix/aviatrix"
   version = "1.0.0"
 
   gw_name                 = "edge-equinix"
