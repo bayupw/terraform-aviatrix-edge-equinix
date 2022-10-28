@@ -34,3 +34,7 @@ not-provisioned/
 
 # Ignore keys
 *.pem
+
+# Ignore cloud-init.txt
+*.txt
+*.original
