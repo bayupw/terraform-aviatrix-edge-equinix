@@ -85,5 +85,5 @@ variable "ztp_file_download_path" {
 variable "local_as_number" {
   description = "BGP AS Number to assign to Edge as a Spoke."
   type        = string
-  default     = "65100"
+  default     = "65000"
 }

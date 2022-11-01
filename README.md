@@ -33,10 +33,10 @@ export AVIATRIX_PASSWORD="aviatrix123"
 ```hcl
 module "aviatrix-edge-equinix" {
   source = "bayupw/edge-equinix/aviatrix"
-  version = "1.0.0"
+  version = "1.0.1"
 
-  gw_name                 = "edge-equinix"
-  site_id                 = "Equinix-Fabric"
+  gw_name                 = "edge-equinix-gw1"
+  site_id                 = "Equinix-NY"
   wan_interface_ip_prefix = "192.168.11.101/24"
   wan_default_gateway_ip  = "192.168.11.254"
   lan_interface_ip_prefix = "192.168.12.101/24"
